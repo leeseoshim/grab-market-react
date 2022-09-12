@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MainPageComponent from "./main";
 
+//실행시켰을 때 화면에 보이는 컴포넌트
+//index.js에서 보여줘서
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <MainPageComponent />;
 }
 
 export default App;
