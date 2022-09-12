@@ -11,7 +11,7 @@
 }
 
 #body {
-  height: 100%;
+  height: 100vh;
   width: 1024px;
   /* 부모를 기준으로 가운데정렬 */
   /* 부모에 display: flex; */
